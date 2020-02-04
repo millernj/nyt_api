@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NYT search</title>
+  <div class="container">
+    <div class="headContainer">
+        <h1 class="header">New York Times Search</h1>
+    </div>
+    <br>
+    <div class="searchCard">
+        <h1 class="cardTitle">Search Parameters</h1>
+        <h2 class="formName">Search Term</h2>
+        <textarea rows="1" cols="100" class="textarea" id="searchText"></textarea>
+        <h2 class="formName">Number Of Records to Retrieve</h2>
+        <textarea rows="1" cols="100"  class="textarea" id="numberText"></textarea>
+        <h2 class="formName">Start Year (Optional)</h2>
+        <textarea rows="1" cols="100"  class="textarea" id="startText"></textarea rows="1" cols="100">
+        <h2 class="formName">End Year (Optional</h2>
+        <textarea rows="1" cols="100"  class="textarea" id="endText"></textarea>
+        <br>
+        <button class="button" id = "searchBtn">Search</button>
+        <button class="button" id = "clearBtn">Clear</button>
+    </div>
+    <br>
+    <div class="resultsCard">
+        <h1 class="cardTitle">Top articles</h1>
+        <ol class="list">
+            <li class="listItem">example1</li>
+        </ol>
+    </div>
+  </div>
+  <script src="./script.js" ></script>
+</body>
+</html> 

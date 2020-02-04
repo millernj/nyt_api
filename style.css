@@ -1,0 +1,33 @@
+.container{
+  background-color: red;
+  }
+  .headContainer{
+  background-color:darkblue;
+  height: 100px;
+  }
+  .header{
+  color: white;
+  font-size: 60px;
+  }
+  .searchCard{
+      background-color:white;
+      border: 2px solid black;
+  }
+  .resultsCard{
+  background-color: purple;
+  }
+  .cardTitle{
+  }
+  .textarea{
+  }
+  .formName{
+  }
+  .button{
+      
+  }
+  .list{
+      background-color: white;
+  }
+  .listItem{
+      background-color: white;
+  }
